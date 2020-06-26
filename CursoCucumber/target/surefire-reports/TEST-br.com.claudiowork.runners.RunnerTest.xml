@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="br.com.claudiowork.runners.RunnerTest" time="8.961" errors="0" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\claud\git\CucumberSeleniumBDD\CursoCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\claud\git\CucumberSeleniumBDD\CursoCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\claud\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\WORKSPACE\Cucumber\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4958051462377464613.tmp"/>
+    <property name="jansi.force" value="true"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_241\jre\bin;C:/Program Files/Java/jdk1.8.0_241/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_241/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_241/bin/../jre/lib/amd64;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\20.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\20.0\Bpl\Win64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_241\bin;D:\Program Files\Git\cmd;D:\Program Files\apache-maven-3.6.3\bin;D:\Arquivos de Programa\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Users\claud\AppData\Local\Microsoft\WindowsApps;;C:\Users\claud\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\claud\AppData\Roaming\npm;D:\eclipse;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\claud"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="claud"/>
+    <property name="java.class.path" value="D:\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.15.0.20200310-1832\jars\plexus-classworlds-2.6.0.jar;D:\eclipse\configuration\org.eclipse.osgi\245\0\.cp\lib\javaagent-shaded.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install -Dstyle.color=always"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\claud\git\CucumberSeleniumBDD\CursoCucumber\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Cadastro de contas" name="Deve inserir uma conta com sucesso" time="8.961">
+    <skipped/>
+    <system-out>@srbarriga
+Funcionalidade: Cadastro de contas
+Como um usuário 
+Gostaria de cadastrar contas
+Para que eu possa distribuir meu dinheiro de uma forma mais organizada
+
+  @srbarriga
+  Cenário: Deve inserir uma conta com sucesso        &amp;#27;[90m# src/test/resources/features/integracaoHerokuSrBarriga.feature:9&amp;#27;[0m
+    &amp;#27;[32mDado &amp;#27;[0m&amp;#27;[32mque estou acessando a aplicação&amp;#27;[0m             &amp;#27;[90m# srbarrigaSteps.queEstouAcessandoAAplicação()&amp;#27;[0m
+    &amp;#27;[33mQuando &amp;#27;[0m&amp;#27;[33minformo o usuário &quot;&amp;#27;[0m&amp;#27;[33m&amp;#27;[1mteste@claudiowork.com&amp;#27;[0m&amp;#27;[33m&quot;&amp;#27;[0m &amp;#27;[90m# srbarrigaSteps.informoOUsuário(String)&amp;#27;[0m
+      &amp;#27;[33mcucumber.api.PendingException: TODO: implement me
+	at br.com.claudiowork.steps.srbarrigaSteps.informoOUsuário(srbarrigaSteps.java:25)
+	at ?.informo o usuário &quot;teste@claudiowork.com&quot;(src/test/resources/features/integracaoHerokuSrBarriga.feature:11)
+&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36ma senha &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mteste&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m                                &amp;#27;[90m# srbarrigaSteps.aSenha(String)&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mseleciono entrar&amp;#27;[0m                               &amp;#27;[90m# srbarrigaSteps.selecionoEntrar()&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36mvisualizo a página inicial&amp;#27;[0m                 &amp;#27;[90m# srbarrigaSteps.visualizoAPáginaInicial()&amp;#27;[0m
+    &amp;#27;[36mQuando &amp;#27;[0m&amp;#27;[36mseleciono Contas&amp;#27;[0m                          &amp;#27;[90m# srbarrigaSteps.selecionoContas()&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mseleciono Adicionar&amp;#27;[0m                            &amp;#27;[90m# srbarrigaSteps.selecionoAdicionar()&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36minformo a conta &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mConta de Teste&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m               &amp;#27;[90m# srbarrigaSteps.informoAConta(String)&amp;#27;[0m
+    &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mseleciono Salvar&amp;#27;[0m                               &amp;#27;[90m# srbarrigaSteps.selecionoSalvar()&amp;#27;[0m
+    &amp;#27;[36mEntão &amp;#27;[0m&amp;#27;[36ma conta é inserida com sucesso&amp;#27;[0m             &amp;#27;[90m# srbarrigaSteps.aContaÉInseridaComSucesso()&amp;#27;[0m
+</system-out>
+    <system-err>WARNING: Found tags option &apos;~@ignore&apos;. Support for &apos;~@tag&apos; will be removed from the next release of Cucumber-JVM. Please use &apos;not @tag&apos; instead.
+Starting ChromeDriver 83.0.4103.14 (be04594a2b8411758b860104bc0a1033417178be-refs/branch-heads/4103@{#119}) on port 44270
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+jun 25, 2020 4:17:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>

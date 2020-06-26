@@ -1,0 +1,168 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Deve inserir uma conta com sucesso",
+        "description": "",
+        "id": "cadastro-de-contas;deve-inserir-uma-conta-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 8929435301,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "que estou acessando a aplicação",
+            "match": {
+              "location": "srbarrigaSteps.queEstouAcessandoAAplicação()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat br.com.claudiowork.steps.srbarrigaSteps.informoOUsuário(srbarrigaSteps.java:25)\r\n\tat ✽.informo o usuário \"teste@claudiowork.com\"(src/test/resources/features/integracaoHerokuSrBarriga.feature:11)\r\n",
+              "duration": 4002301,
+              "status": "pending"
+            },
+            "line": 11,
+            "name": "informo o usuário \"teste@claudiowork.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "teste@claudiowork.com",
+                  "offset": 19
+                }
+              ],
+              "location": "srbarrigaSteps.informoOUsuário(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "a senha \"teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "teste",
+                  "offset": 9
+                }
+              ],
+              "location": "srbarrigaSteps.aSenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "seleciono entrar",
+            "match": {
+              "location": "srbarrigaSteps.selecionoEntrar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "visualizo a página inicial",
+            "match": {
+              "location": "srbarrigaSteps.visualizoAPáginaInicial()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "seleciono Contas",
+            "match": {
+              "location": "srbarrigaSteps.selecionoContas()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "seleciono Adicionar",
+            "match": {
+              "location": "srbarrigaSteps.selecionoAdicionar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "informo a conta \"Conta de Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta de Teste",
+                  "offset": 17
+                }
+              ],
+              "location": "srbarrigaSteps.informoAConta(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "seleciono Salvar",
+            "match": {
+              "location": "srbarrigaSteps.selecionoSalvar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "a conta é inserida com sucesso",
+            "match": {
+              "location": "srbarrigaSteps.aContaÉInseridaComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@srbarriga"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contas",
+    "description": "Como um usuário \nGostaria de cadastrar contas\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "id": "cadastro-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/integracaoHerokuSrBarriga.feature",
+    "tags": [
+      {
+        "name": "@srbarriga",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

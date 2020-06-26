@@ -1,0 +1,8 @@
+#para rodar direto no maven
+#1. Acessar pasta do projeto via cmd
+#2. Executar o comando
+#	mvn test
+#	
+#3. Para passar ou sobrescrever options
+#	mvn test -Dcucumber.options="-h" //help - obtém todas as opções de help
+#	mvn test -Dcucumber.options="-d" //DryRun
